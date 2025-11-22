@@ -1,0 +1,27 @@
+{
+  "name": "caso-final-de-estudio-orders",
+  "version": "0.1.0",
+  "description": "API REST de órdenes - Caso Final de Estudio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --runInBand",
+    "test:integration": "jest --runInBand src/tests/orders.test.js",
+    "lint": "eslint . --ext .js"
+  },
+  "author": "Equipo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.4.2",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.46.0"
+  }
+}
