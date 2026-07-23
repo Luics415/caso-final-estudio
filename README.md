@@ -56,5 +56,3 @@ npm start
 - Usa GitHub Secrets y OIDC si tu proveedor lo soporta.
 - Habilita escaneos SAST/SCA (SonarCloud / Dependabot).
 
-## Archivo de referencia (especificación)
-Incluye la especificación original del caso de estudio: `/mnt/data/📘 Caso de Estudio.docx` (si quieres añadirla al repo, cópiala a la raíz).
